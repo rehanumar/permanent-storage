@@ -1,0 +1,23 @@
+{
+  "name": "permanent-storage-example",
+  "version": "1.0.0",
+  "description": "using permanent storage to set undeletable values in localstorage",
+  "browser": "dist/index.js",
+  "scripts": {
+    "build": "npx webpack"
+  },
+  "author": "Rehan Umar",
+  "license": "MIT",
+  "dependencies": {
+    "permanent-storage": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "private": true
+}
