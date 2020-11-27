@@ -33,7 +33,7 @@ trackerStorage.removeItem("tracking-id");
 trackerStorage.clear();
 ```
 
-![image for localStorage](https://github.com/permanent-storage/assets/blob/master/localstorage.gif)
+![image for localStorage](https://github.com/rehanumar/permanent-storage/raw/master/assets/localstorage.gif)
 
 ## Possible Usecase
 
