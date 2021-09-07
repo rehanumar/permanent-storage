@@ -1,6 +1,6 @@
 {
   "name": "permanent-storage",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "An implementation based on browser storage event to persist items in local storage and session storage",
   "scripts": {
     "build": "npx webpack",
@@ -26,9 +26,10 @@
     "url": "https://github.com/rehanumar/permanent-storage/issues"
   },
   "homepage": "https://github.com/rehanumar/permanent-storage#readme",
-  "browser": "src/index.js",
+  "browser": "dist/index.js",
+  "main": "dist/index.js",
   "files": [
-    "src/index.js",
+    "dist/index.js",
     "src/index.d.ts"
   ],
   "devDependencies": {
@@ -37,7 +38,6 @@
     "@purtuga/esm-webpack-plugin": "^1.4.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "cypress": "^5.2.0",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",
     "prettier": "2.1.2",
